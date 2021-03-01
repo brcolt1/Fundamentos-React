@@ -1,0 +1,56 @@
+/* 
+const user = {
+  nome: 'Bruno',
+  sobrenome: 'Colturato'
+};
+function formatUser(user) {
+  return (user.nome + ' ' + user.sobrenome);
+}
+function cumprimentar(user) {
+  if(user) {
+    return (<h1>Olá {formatUser(user)}</h1>);
+  }
+  else {
+    return (<h1>Olá desconhecido</h1>);
+  }
+}
+const element = (cumprimentar(user)); 
+*/
+
+/* 
+const enderecoUrl = 'logo.png';
+const element = (<img src={enderecoUrl} alt=""/>); 
+*/
+
+
+/* 
+Essas duas declarações são INDÊNTICAS:
+(1):
+const element1 = React.createElement(
+  'h1',
+  {className: ''},
+  'Texto a se apresentar na tela'
+);
+(2):
+const element2 = (<h1>Texto aqui</h1>);
+*/
+
+/* function tick() {
+  const element = (
+    <div>
+      <h1>Olá mundo</h1>
+      <h2>São {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById('root')); //Renderizando um Elemento React em um nó raiz.
+}
+setInterval(tick, 1000); 
+*/
+
+/* const name = 'Bruno';
+const element = (
+<p>
+  Olá {name}. Isto é um elemento React (React.createElement),
+  que por sua vez é um objeto JavaScript (?).
+</p>);
+ */
